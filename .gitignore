@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv
+venv/
+ENV/
+env/
+.env
+
+# Models and Large Files
+*.bin
+*.pth
+*.pt
+*.safetensors
+*.json
+!config.json
+!README.md
+!docs/
+
+# OS
+.DS_Store
